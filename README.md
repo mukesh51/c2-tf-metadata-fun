@@ -2,7 +2,7 @@ This Terraform project creates and EC2 instance, associates a security group wit
 
 How to run this Project.
 
-1. Clone this project.
+1. Clone this project. Ensure you've Terraform 0.12 installed.
 2. Move to that specific folder and then run terraform init to initialize the repository.
 3. Create a public/private key by running the command ssh-keygen -f mykey (use all the default values).
 4. The above public key is uploaded to EC2 instance and copies the metadata.sh script to ec2 instance. This script is run using the provisioner "remote-exec".
